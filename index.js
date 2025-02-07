@@ -11,7 +11,9 @@ const PORT = process.env.PORT;
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+  origin: '*'
+}));
 app.use(express.json());
 dotenv;
 //setting up chat socket //

@@ -2,11 +2,18 @@ const chatController = require("../controller/chatController");
 const { addCount } = chatController;
 
 module.exports.chatSocket = (server) => {
+  // const io = require("socket.io")(server, {
+  //   cors: {
+  //     origin: "http://localhost:3000",
+  //   },
+  // });
   const io = require("socket.io")(server, {
     cors: {
-      origin: "http://localhost:3000",
-    },
-  });
+        origin: "*", // Allows all origins
+        methods: ["GET", "POST"]
+    }
+});
+
 
   //setup socket connection //
 
