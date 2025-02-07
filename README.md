@@ -17,8 +17,6 @@
 
 <p align="center"> 
     <br />&#10023;
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7033886022119632896/">View Demo</a>   &#10023;  
-    <a href="https://github.com/Deepeshgodhwani/ChatTap/issues">Report Bug</a>    &#10023;
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
     <a href="#Contact">Author</a> &#10023;
   </p>
@@ -68,12 +66,6 @@
 
 <br />
 
-## Demo
-
-[Check here to see the presentation video of this project](https://www.linkedin.com/feed/update/urn:li:activity:7033886022119632896/)
-
-
-<br/>
 
 
 ## Getting Started
@@ -173,17 +165,3 @@ To run this project, you will need to add the following environment variables to
 
 <br/>
 
-
-
-## Contact
-
-If you want to contact me, you can reach me through below handles.
-
-[![linkedin](https://img.shields.io/badge/Deepesh_Godhwani-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/deeepesh-godhwani-4269531b0)
-[![Twitter](https://img.shields.io/badge/Deepesh_Godhwani-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/Deepeshgodhwani)
-
-© 2023 Deepesh Godhwani
-
-## Show your support
-
-Give a ⭐️ if you like this project!
