@@ -5,6 +5,8 @@ const { body, validationResult } = require("express-validator");
 const User = require("../models/user");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const tokenService = require("../utils/token-service");
+const HQCCrypto = require("../utils/hqc-crypto");
 const jwtSecret = process.env.JWT_SECRET;
 
 // creating user signing up  //
@@ -37,6 +39,8 @@ router.post(
 
       const salt = await bcrypt.genSaltSync(10);
       const encryptedpass = await bcrypt.hash(req.body.password, salt);
+      console.log(req.body.password);
+      console.log(encryptedpass);
 
       let user = await User.create({
         name: req.body.name,
